@@ -1,0 +1,30 @@
+.tap-bar {
+  background-color: #f7f7f7;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 5px 30px;
+  border-top: 1px solid #c1c1c1;
+}
+
+.tap-bar .tap-bar-tab {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #c1c1c1;
+}
+.tap-bar .tap-bar-tap-selected {
+  color: #523737;
+}
+.tap-bar .tap-bar-tab i {
+  margin-bottom: 5px;
+  display: block;
+  font-size: 24px;
+}
+
+.tap-bar .tap-bar-title {
+  font-size: 10px;
+}
