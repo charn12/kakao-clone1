@@ -1,0 +1,40 @@
+.find .find-options {
+  background: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.find-options .find-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 5px;
+  color: #523737;
+}
+.find-option i {
+  margin-bottom: 15px;
+}
+.find-option span {
+  font-size: 12px;
+}
+
+.find-recommended header {
+  border-bottom: 1px solid #eeeeee;
+  color: #959292;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.recommended-none {
+  color: #959292;
+  border-bottom: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
